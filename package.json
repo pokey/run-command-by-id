@@ -1,8 +1,14 @@
 {
-  "name": "run-command-by-id",
+	"name": "run-command-by-id",
 	"displayName": "Run Command by Id",
 	"description": "Run any command by its id",
-	"version": "0.0.1",
+	"publisher": "pokey",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pokey/run-command-by-id.git"
+	},
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.52.0"
 	},
@@ -10,14 +16,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:run-command-by-id.helloWorld"
+		"onCommand:run-command-by-id.runCommandById"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "run-command-by-id.helloWorld",
-				"title": "Hello World"
+				"command": "run-command-by-id.runCommandById",
+				"title": "Run command by id"
 			}
 		]
 	},
