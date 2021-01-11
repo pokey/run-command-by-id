@@ -8,7 +8,7 @@
 		"type": "git",
 		"url": "https://github.com/pokey/run-command-by-id.git"
 	},
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"engines": {
 		"vscode": "^1.52.0"
 	},
@@ -24,6 +24,13 @@
 			{
 				"command": "run-command-by-id.runCommandById",
 				"title": "Run command by id"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "run-command-by-id.runCommandById",
+				"key": "ctrl+shift+alt+p",
+				"mac": "cmd+shift+alt+p"
 			}
 		]
 	},
